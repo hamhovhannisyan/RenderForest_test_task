@@ -1,0 +1,29 @@
+{
+  "getProductQueryParamsSchema": {
+    "type": "object",
+    "properties": {
+      "pageCount": { "type": "number" },
+      "page": { "type": "number" }
+    },
+    "required": ["pageCount", "page"],
+    "additionalProperties": false
+  },
+  "createProductBodyParamsSchema": {
+    "type": "object",
+    "properties": {
+      "productName": { "type": "string" },
+      "productType": { "type": "string" },
+      "productPrice": { "type": "number" }
+    },
+    "required": ["productName", "productType", "productPrice"],
+    "additionalProperties": false
+  },
+  "deleteProductParamsSchema": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "number" }
+    },
+    "required": ["id"],
+    "additionalProperties": false
+  }
+}

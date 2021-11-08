@@ -1,0 +1,18 @@
+module.exports = {
+  Accepted: 202,
+  BadRequest: 400,
+  Conflict: 409,
+  Forbidden: 403,
+  Gone: 410,
+  InternalServerError: 500,
+  MethodNotAllowed: 405,
+  MultipleChoices: 300,
+  NotAcceptable: 406,
+  NotFound: 404,
+  NotImplemented: 501,
+  OK: 200,
+  PreconditionFailed: 412,
+  ServiceUnavailable: 503,
+  Unauthorized: 401,
+  UnprocessableEntity: 422,
+};

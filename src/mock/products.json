@@ -1,0 +1,27 @@
+[
+  {
+    "productName": "Iphone 13 pro max",
+    "productType": "phone",
+    "productPrice": 1000
+  },
+  {
+    "productName": "Iphone 13 ",
+    "productType": "phone",
+    "productPrice": 800
+  },
+  {
+    "productName": "Iphone X",
+    "productType": "phone",
+    "productPrice": 500
+  },
+  {
+    "productName": "Samsung",
+    "productType": "phone",
+    "productPrice": 950
+  },
+  {
+    "productName": "Xiaomi",
+    "productType": "phone",
+    "productPrice": 600
+  }
+]
